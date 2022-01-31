@@ -1,0 +1,273 @@
+{
+  "uuid": "2b57f2f2-3145-f95f-5669-2014f7175e61",
+  "last_modified": 1642808728038,
+  "version": "3.0.0.20500",
+  "name": "adventureworksdw",
+  "owner": "ADMIN",
+  "descriptor": "adventureworksdw",
+  "display_name": "adventureworksdw",
+  "cost": 50,
+  "status": "READY",
+  "segments": [
+    {
+      "uuid": "b94e6b4e-b399-2e3b-fabf-5eaf6d5d6cb5",
+      "name": "FULL_BUILD",
+      "storage_location_identifier": "KYLIN_9SR8TIWZVA",
+      "date_range_start": 0,
+      "date_range_end": 9223372036854776000,
+      "source_offset_start": 0,
+      "source_offset_end": 0,
+      "status": "READY",
+      "size_kb": 0,
+      "is_merged": false,
+      "estimate_ratio": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "input_records": 0,
+      "input_records_size": 0,
+      "last_build_time": 1642808727194,
+      "last_build_job_id": "e93aee18-bd50-3d56-a5f8-c73187d470cc",
+      "create_time_utc": 1642808472309,
+      "cuboid_shard_nums": {},
+      "total_shards": 1,
+      "blackout_cuboids": [],
+      "binary_signature": null,
+      "dictionaries": {
+        "DIMDATE.DAYNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFYEAR/359f9aef-1a62-7146-1d1c-81a1e2223be9.dict",
+        "DIMPRODUCT.PRODUCTSUBCATEGORYKEY": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/PRODUCTSUBCATEGORYKEY/cf01c916-6d75-77fe-4049-a0ac1627d728.dict",
+        "FACTINTERNETSALES.SALESTERRITORYKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/SALESTERRITORYKEY/a43330bc-c055-3923-dddc-9651811d719d.dict",
+        "DIMDATE.WEEKNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/WEEKNUMBEROFYEAR/edda2f9b-7369-f885-eafa-b040338b65dc.dict",
+        "DIMDATE.ENGLISHMONTHNAME": "/dict/ADVENTUREWORKSDW.DIMDATE/ENGLISHMONTHNAME/49bb3787-5e12-9234-4664-c030d15a2f39.dict",
+        "DIMDATE.MONTHNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/MONTHNUMBEROFYEAR/d6c1e91c-a1e0-88cb-7538-d93b9bed9895.dict",
+        "DIMDATE.CALENDARSEMESTER": "/dict/ADVENTUREWORKSDW.DIMDATE/CALENDARSEMESTER/e8ac6ad2-6d79-884d-9121-60c7d2c2a190.dict",
+        "FACTINTERNETSALES.CURRENCYKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/CURRENCYKEY/4f95e344-5cc9-ce02-12d0-1267b4fc1035.dict",
+        "DIMSALESTERRITORY.SALESTERRITORYCOUNTRY": "/dict/ADVENTUREWORKSDW.DIMSALESTERRITORY/SALESTERRITORYCOUNTRY/546c081f-6def-5812-1625-ebdd0edc2428.dict",
+        "DIMDATE.ENGLISHDAYNAMEOFWEEK": "/dict/ADVENTUREWORKSDW.DIMDATE/ENGLISHDAYNAMEOFWEEK/2113cbbe-ed34-8a8e-67ba-4007320ad03d.dict",
+        "FACTINTERNETSALES.PRODUCTKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/PRODUCTKEY/4fa46207-0401-93d8-d655-391ef7819158.dict",
+        "DIMSALESTERRITORY.SALESTERRITORYGROUP": "/dict/ADVENTUREWORKSDW.DIMSALESTERRITORY/SALESTERRITORYGROUP/e52f85db-a09d-12ea-dc7e-79a3698225f2.dict",
+        "FACTINTERNETSALES.CUSTOMERKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/CUSTOMERKEY/c337a6bb-787d-0e08-62ff-febd54b381f0.dict",
+        "DIMPRODUCT.PRODUCTCATEGORYKEY": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/PRODUCTCATEGORYKEY/53a674ec-da9b-2574-a1c2-9e4131f31827.dict",
+        "DIMCUSTOMER.GENDER": "/dict/ADVENTUREWORKSDW.DIMCUSTOMER/GENDER/db3e9aeb-1d1f-5713-6bf2-a0f4a618af1c.dict",
+        "DIMDATE.CALENDARQUARTER": "/dict/ADVENTUREWORKSDW.DIMDATE/CALENDARQUARTER/d084ba97-2a7c-0c8a-927a-a4742ef4d004.dict",
+        "FACTINTERNETSALES.ORDERDATEKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/ORDERDATEKEY/3555a265-1e38-aded-872b-0ee19c94daa2.dict",
+        "DIMSALESTERRITORY.SALESTERRITORYREGION": "/dict/ADVENTUREWORKSDW.DIMSALESTERRITORY/SALESTERRITORYREGION/2bfffacc-4dd3-87b5-6ec2-7516fd442ce7.dict",
+        "DIMDATE.DAYNUMBEROFWEEK": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFWEEK/75078ee6-79dd-5c36-a8f8-7ebac7b23d5a.dict",
+        "DIMDATE.DAYNUMBEROFMONTH": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFMONTH/a9a47114-a85f-b6ba-7681-d31a64d8fbad.dict"
+      },
+      "snapshots": {
+        "ADVENTUREWORKSDW.DIMPRODUCTSUBCATEGORY": "/table_snapshot/ADVENTUREWORKSDW.DIMPRODUCTSUBCATEGORY/f15d78cd-41a3-5c5b-5409-32a6230c16f3.snapshot",
+        "ADVENTUREWORKSDW.DIMPRODUCT": "/table_snapshot/ADVENTUREWORKSDW.DIMPRODUCT/787eaf44-d74c-3cf7-9045-57f5ada523fb.snapshot",
+        "ADVENTUREWORKSDW.DIMCUSTOMER": "/table_snapshot/ADVENTUREWORKSDW.DIMCUSTOMER/65724949-650b-a2aa-ba0b-d13dbb2f16e5.snapshot",
+        "ADVENTUREWORKSDW.DIMDATE": "/table_snapshot/ADVENTUREWORKSDW.DIMDATE/ff9b69a1-4b63-e371-2830-0d63b1bdfd38.snapshot",
+        "ADVENTUREWORKSDW.DIMCURRENCY": "/table_snapshot/ADVENTUREWORKSDW.DIMCURRENCY/d98b8aeb-81c0-1125-e6a1-1aa6b2a25aaa.snapshot",
+        "ADVENTUREWORKSDW.DIMSALESTERRITORY": "/table_snapshot/ADVENTUREWORKSDW.DIMSALESTERRITORY/419257d9-2b1c-4d87-8f84-4cfcbd4d2ae1.snapshot",
+        "ADVENTUREWORKSDW.DIMPRODUCTCATEGORY": "/table_snapshot/ADVENTUREWORKSDW.DIMPRODUCTCATEGORY/787a43b9-043b-047a-400b-eb0c934227eb.snapshot"
+      },
+      "rowkey_stats": [
+        [
+          "DIMDATE.DAYNUMBEROFMONTH",
+          0,
+          1
+        ],
+        [
+          "DIMDATE.DAYNUMBEROFYEAR",
+          0,
+          1
+        ],
+        [
+          "DIMDATE.WEEKNUMBEROFYEAR",
+          0,
+          1
+        ],
+        [
+          "DIMDATE.ENGLISHMONTHNAME",
+          0,
+          1
+        ],
+        [
+          "DIMCUSTOMER.GENDER",
+          0,
+          1
+        ],
+        [
+          "DIMSALESTERRITORY.SALESTERRITORYCOUNTRY",
+          0,
+          1
+        ],
+        [
+          "DIMSALESTERRITORY.SALESTERRITORYGROUP",
+          0,
+          1
+        ],
+        [
+          "DIMDATE.MONTHNUMBEROFYEAR",
+          0,
+          1
+        ],
+        [
+          "DIMDATE.CALENDARQUARTER",
+          0,
+          1
+        ],
+        [
+          "DIMPRODUCT.PRODUCTSUBCATEGORYKEY",
+          0,
+          1
+        ],
+        [
+          "DIMPRODUCT.PRODUCTCATEGORYKEY",
+          0,
+          1
+        ],
+        [
+          "DIMDATE.DAYNUMBEROFWEEK",
+          0,
+          1
+        ],
+        [
+          "DIMDATE.CALENDARSEMESTER",
+          0,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.PRODUCTKEY",
+          0,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.ORDERDATEKEY",
+          0,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.CURRENCYKEY",
+          0,
+          1
+        ],
+        [
+          "DIMDATE.ENGLISHDAYNAMEOFWEEK",
+          0,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.CUSTOMERKEY",
+          0,
+          1
+        ],
+        [
+          "DIMSALESTERRITORY.SALESTERRITORYREGION",
+          0,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.SALESTERRITORYKEY",
+          0,
+          1
+        ]
+      ],
+      "stream_source_checkpoint": null,
+      "dimension_range_info_map": {
+        "DIMDATE.DAYNUMBEROFYEAR": {
+          "min": null,
+          "max": null
+        },
+        "DIMPRODUCT.PRODUCTSUBCATEGORYKEY": {
+          "min": null,
+          "max": null
+        },
+        "FACTINTERNETSALES.SALESTERRITORYKEY": {
+          "min": null,
+          "max": null
+        },
+        "DIMDATE.WEEKNUMBEROFYEAR": {
+          "min": null,
+          "max": null
+        },
+        "DIMDATE.ENGLISHMONTHNAME": {
+          "min": null,
+          "max": null
+        },
+        "FACTINTERNETSALES.CURRENCYKEY": {
+          "min": null,
+          "max": null
+        },
+        "DIMDATE.MONTHNUMBEROFYEAR": {
+          "min": null,
+          "max": null
+        },
+        "DIMDATE.CALENDARSEMESTER": {
+          "min": null,
+          "max": null
+        },
+        "DIMSALESTERRITORY.SALESTERRITORYCOUNTRY": {
+          "min": null,
+          "max": null
+        },
+        "DIMDATE.ENGLISHDAYNAMEOFWEEK": {
+          "min": null,
+          "max": null
+        },
+        "FACTINTERNETSALES.PRODUCTKEY": {
+          "min": null,
+          "max": null
+        },
+        "FACTINTERNETSALES.CUSTOMERKEY": {
+          "min": null,
+          "max": null
+        },
+        "DIMSALESTERRITORY.SALESTERRITORYGROUP": {
+          "min": null,
+          "max": null
+        },
+        "DIMPRODUCT.PRODUCTCATEGORYKEY": {
+          "min": null,
+          "max": null
+        },
+        "DIMCUSTOMER.GENDER": {
+          "min": null,
+          "max": null
+        },
+        "DIMDATE.CALENDARQUARTER": {
+          "min": null,
+          "max": null
+        },
+        "FACTINTERNETSALES.ORDERDATEKEY": {
+          "min": null,
+          "max": null
+        },
+        "DIMSALESTERRITORY.SALESTERRITORYREGION": {
+          "min": null,
+          "max": null
+        },
+        "DIMDATE.DAYNUMBEROFWEEK": {
+          "min": null,
+          "max": null
+        },
+        "DIMDATE.DAYNUMBEROFMONTH": {
+          "min": null,
+          "max": null
+        }
+      }
+    }
+  ],
+  "create_time_utc": 1642806918478,
+  "cuboid_bytes": null,
+  "cuboid_bytes_recommend": null,
+  "cuboid_last_optimized": 0,
+  "snapshots": {}
+}
